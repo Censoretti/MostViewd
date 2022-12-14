@@ -1,0 +1,30 @@
+{
+  "name": "mostviewd",
+  "version": "0.0.1",
+  "description": "Most viewd products on shopify",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Censoretti/MostViewd.git"
+  },
+  "keywords": [
+    "shopify"
+  ],
+  "author": "Rodrigo Paiotti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Censoretti/MostViewd/issues"
+  },
+  "homepage": "https://github.com/Censoretti/MostViewd#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^6.0.1"
+  }
+}
